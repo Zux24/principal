@@ -1,0 +1,222 @@
+<!doctype html><p align=center><font size=+1 color=red>This website was created by evaluation version of PHPRunner Trial.</font></p>
+<p align=center><font size=+1 color=red>This warning message will not appear on website created by a paid-for version of PHPRunner Trial.</font></p>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-search" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		<DIV class="bs-top">
+        
+
+{BEGIN container_searchpage}
+<div {$searchpage_chiddenattr} data-pageid="{$pageid}" data-container="searchpage" class="container    "> 
+
+
+
+
+{BEGIN container_header}
+<div {$header_chiddenattr} data-pageid="{$pageid}" data-container="header" class="   col-md-6 col-md-offset-3"> 
+
+{BEGIN searchheader}
+	<h2 {$bssearchheader_hiddenattr} data-pageid="{$pageid}" data-brick="bssearchheader" >{$pagetitlelabel productos search}</h2>
+	{BEGIN printtabheader}<h4>{$printtabheader_text}</h4>{END printtabheader}
+
+{END searchheader}
+
+
+
+</div>
+{END container_header}
+
+
+
+
+
+
+</div>
+{END container_searchpage}
+
+
+
+{BEGIN container_fields}
+<div {$fields_chiddenattr} data-pageid="{$pageid}" data-container="fields" class="   col-md-12 "> 
+
+
+<div {$bssearchfields_hiddenattr} data-pageid="{$pageid}" data-brick="bssearchfields" class="form-horizontal" role="form">
+<div class="container">
+	<div class="form-group">
+		<div class="col-md-12" >
+			&nbsp;
+		</div>
+	</div>
+</div>
+	{BEGIN id_producto_fieldblock}		
+	<div class="container {$fielddispclass_id_producto}" data-fieldname="id_producto">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_id_producto}">
+				{$label productos id_producto}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_id_producto}
+			</div>
+			<div class="col-md-4" >
+				{$id_producto_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$id_producto_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END id_producto_fieldblock}
+	{BEGIN Nombre_fieldblock}		
+	<div class="container {$fielddispclass_Nombre}" data-fieldname="Nombre">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_Nombre}">
+				{$label productos Nombre}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_Nombre}
+			</div>
+			<div class="col-md-4" >
+				{$Nombre_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$Nombre_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END Nombre_fieldblock}
+	{BEGIN Precios_fieldblock}		
+	<div class="container {$fielddispclass_Precios}" data-fieldname="Precios">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_Precios}">
+				{$label productos Precios}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_Precios}
+			</div>
+			<div class="col-md-4" >
+				{$Precios_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$Precios_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END Precios_fieldblock}
+	{BEGIN Caracteristicas_fieldblock}		
+	<div class="container {$fielddispclass_Caracteristicas}" data-fieldname="Caracteristicas">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="{$labelfor_Caracteristicas}">
+				{$label productos Caracteristicas}
+			</label>
+			<div class="col-md-2 bs-srchoption" >
+				{$searchtype_Caracteristicas}
+			</div>
+			<div class="col-md-4" >
+				{$Caracteristicas_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$Caracteristicas_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END Caracteristicas_fieldblock}
+</div>
+
+
+
+
+</div>
+{END container_fields}
+
+
+
+{BEGIN container_bottombuttons}
+<div {$bottombuttons_chiddenattr} data-pageid="{$pageid}" data-container="bottombuttons" class="container form-horizontal   "> 
+
+
+
+
+{BEGIN container_bbuttons}
+<div {$bbuttons_chiddenattr} data-pageid="{$pageid}" data-container="bbuttons" class=" form-group   "> 
+
+
+
+
+{BEGIN container_leftbuttons}
+<div {$leftbuttons_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons" class="   col-md-10 col-md-offset-2"> 
+
+{BEGIN searchbuttons}
+{BEGIN search_button}
+<button class="btn btn-primary" {$searchbutton_attrs}>Buscar</button>
+{END search_button} 
+{BEGIN reset_button}
+<button class="btn btn-default" {$resetbutton_attrs}>Reiniciar</button>
+{END reset_button}
+{BEGIN back_button}
+<button class="btn btn-default" {$backbutton_attrs}>Volver a la lista</button>
+{END back_button}
+{END searchbuttons}
+
+
+
+</div>
+{END container_leftbuttons}
+
+
+
+
+
+
+</div>
+{END container_bbuttons}
+
+
+
+
+
+
+</div>
+{END container_bottombuttons}
+
+
+		</div>
+		<div class="bs-middle ">
+			<div class="bs-topmiddle">
+				
+			</div>
+			<div class="bs-left" {$blockattr_left}>
+				
+			</div>
+			<div class="bs-center">
+				
+			</div>
+			<div class="bs-right">
+				
+			</div>
+		</div>
+		<DIV class="bs-bottom">
+        
+		</div>
+		{$footer}
+	{END body}
+	</body>
+</html>
