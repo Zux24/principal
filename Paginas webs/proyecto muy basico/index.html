@@ -1,0 +1,61 @@
+
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+		<link rel="icon" type="image/ico" href="imagenes/Mushroom - Mini.ico" />
+
+		<title> Gato cuenta </title>
+		<!-- Codigo javascript -->
+		<script language="javascript">
+
+   			function Validar(){ //Verifica si los datos siguientes existen:
+      			if(document.getElementById("usuario").value == "") { //Usuario
+         			alert("Debes escribir tu nombre de usuario.");
+         			document.getElementById("usuario").focus();
+         			return false;
+     	  	    }
+      			if(document.getElementById("clave").value == "") {  //Clave
+         			alert("Debes escribir una tu clave de acceso.");
+        			document.getElementById("clave").focus();
+        		    return false;
+      			}
+      			if(document.getElementById("ficha").value == "") { //Ficha (circulo o cruz)
+         			alert("Debes elegir una ficha para jugar.");
+        			document.getElementById("ficha").focus();
+        		    return false;
+      			}
+      			return true;
+  		    }
+
+		</script>
+
+	</head>
+
+	<body> <!-- Cuerpo html -->
+		<img class="fondo" src="imagenes/fondo7.jpg"> <!-- Imagen de fondo -->
+
+
+		<center>
+		<h1> Juego el gato</h1> <img class="cat" src="imagenes/cat_box.png">
+		<h4 >Para jugar ingrese los siguientes datos.</h4>
+		</center>
+
+		<div> 
+			<!-- Formulario -->
+		<form id="formulario" name="formulario" method="POST" action="login.php" onsubmit="return Validar()">
+			Nombre usuario: <br>
+				<input id="usuario" type="text" name="usuario"/><br>
+			Contrase&ntilde;a:<br>
+				<input id="clave" type="password" name="clave"/><br>
+			Elegir opcion para jugar: <br>	
+				&nbsp<input id="ficha" type="radio" name="ficha" value="x"> X &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input id="ficha" type="radio" name="ficha" value="o">O <br>
+			<input class="boton" type="submit" name="envio" value="Entrar"/>
+		</form>	
+
+		</div>
+
+	</body>
+
+</html>

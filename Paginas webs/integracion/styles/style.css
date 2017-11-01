@@ -1,0 +1,111 @@
+body{
+	background-color: rgb(200,200,255);
+}
+
+.logo{
+	position: relative;
+	width: 160px;
+	height: 107px;
+	background-color: rgb(170,210,200);
+	border-radius: 40px;
+	left: 50px;
+	top: 10px;
+	text-align: center;
+	border: solid 1px rgb(200,230,255);
+}
+#encabezado{
+	position: relative;
+	width: 900px;
+	height: 130px;
+	background-color: rgb(200,200,230);
+	border-radius-top: 15px;
+	left: 270px;
+	border: solid 1px rgb(200,230,255);
+	margin: 5px;
+	padding-bottom: 0px; 
+	border-bottom: 0px;
+}
+h2{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 14px; 
+}
+h5{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 8px;
+	color: rgb(255,255,255);
+
+}
+#navegador{
+	position: relative;
+	width: 900px;
+	height: 50px;
+	background-color: rgb(200,200,230);
+	left: 270px;
+	border: solid 1px rgb(200,230,255);
+	margin: 5px;
+	
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+nav{
+	text-transform: uppercase;
+	font-size: 18.5px;
+	position: relative;
+}
+.marcador{
+	background-color: rgb(255,255,255);
+	padding-left: 50px;
+	padding-right: 80px;
+	padding-bottom: 9px;
+	position: relative;
+}
+.link{
+	background-color: rgb(200,245,249);
+	padding-left: 50px;
+	padding-right: 80px;
+	padding-bottom: 9px;
+	position: relative;
+}
+#contenido{
+	border-top: 0px;
+	padding-top: 0px;
+	position: relative;
+	width: 900px;
+	height: 900px;
+	background-color: rgb(200,200,230);
+	left: 270px;
+	border: solid 1px rgb(200,230,255);
+	margin: 5px;
+
+
+}
+#ard{
+	width: 350px;
+	height: 250px;
+	left: 300px;
+	position: relative;
+	border-radius: 9px;
+	border: solid 2px rgb(200,230,255);
+	
+}
+#footer{
+	position: relative;
+	width: 900px;
+	height: 200px;
+	background-color: rgb(200,200,230);
+	left: 270px;
+	border: solid 1px rgb(200,230,255);
+	border-top: 0px;
+	margin: 5px;
+}
+p,h3{
+	position: relative;
+	left: 40px;
+	width: 800px;
+	font-family: arial;
+	font-size: 16px;
+}

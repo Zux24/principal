@@ -1,0 +1,22 @@
+th	{
+	padding:10;
+	}
+table	{
+	border-style: dotted;
+
+        border-top-color: yellow;
+    	border-right-color: blue;
+  	border-bottom-color: red;
+   	border-left-color: violet;
+
+        border-top-width: 1px;
+    	border-right-width: 3px;
+  	border-bottom-width: 10px;
+   	border-left-width: 0px;
+	}
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}

@@ -1,0 +1,2 @@
+Create database juegogato 
+create table usuarios ( id int(225) NOT NULL auto_increment, nombre text NOT NULL, clave text NOT NULL, PRIMARY KEY (id) ) PACK_KEYS=0 AUTO_INCREMENT=0

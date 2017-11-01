@@ -1,0 +1,35 @@
+div{ 
+	background-color: rgb(102, 153, 255);
+	overflow: hidden;
+	width: 200;
+	height:68px;
+	text-align: center;
+	border-radius: 10px;
+	}
+#fi {
+	width: 99%;
+	height: 15%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+table{
+	text-align: center;
+	border-color: black;
+	width: 50%;
+	height: 65%;
+	}
+.fondo {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:-4;
+	}
+.cat{
+	position: absolute;
+	top: 3%;
+	left: 57%;
+	width: 8%;
+	height: 12%;
+	}

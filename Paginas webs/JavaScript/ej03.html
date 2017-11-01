@@ -1,0 +1,32 @@
+<html>
+	<head>
+	<style type="text/css"> #image { position: absolute; top: 0; left: 0; } </style>
+	<script>
+	function lugar() {
+			document.getElementById("image").style.top = "200px";
+			document.getElementById("image").style.left ="580px"; 
+		}
+	function original(){
+			document.getElementById("image").style.top = "0px";
+			document.getElementById("image").style.left ="0px"; 
+		}
+	function aumentar(){
+			document.getElementById("image").style.width = "400px";
+			document.getElementById("image").style.height ="400px";
+	}
+	</script>
+	</head>
+
+	<body>
+	<center>	
+
+
+		<h1> Botones para cambiar estado de imagen: </h1>	
+			<input type="button" value="Cambiar de lugar" onClick="lugar()"/><br><br>
+			<input type="button" value="Mover a su posicion original" onClick="original()"/><br><br>
+			<input type="button" value="Aumentar zoom imagen" onClick="aumentar()"/><br><br>
+		<img id='image' src="firefox.png" style="width:200px; height: 200px;"/>
+	</center>
+	</body>
+
+</html>
