@@ -1,0 +1,55 @@
+<!Doctype html>
+<html>
+<head>
+  <title>jquery</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  
+  <script type="text/javascript">
+      
+      $(document).ready(principal);
+
+      function principal(){
+          $("#box").click(mensaje); // envia un mensaje
+          $("#im").mouseover(aparece); // vuelve a aparecer el div
+          $(".img2").click(crece);  //crece la imagen
+          $(".img2").mouseover(back); //vuelve a su tamaño
+          $("#box3").click(deslizar); //El div se desliza
+      } 
+      function deslizar(){
+        $(this).slideUp("slow");
+      }    
+      function mensaje(){
+        $(this).hide();
+        alert("Esta pagina usa jquery!");
+        $("#im").show();
+      }
+      function aparece(){
+        $(this).hide();
+        $("#box").show();
+      }
+      function crece(){
+        $(".img2").css({'width':'600px','height':'400px'});
+      }
+      function back(){
+        $(".img2").css({'width':'200px','height':'150px'});
+      }
+  </script>
+</head>
+
+<body>
+  <div id="box">
+    <img src="http://4.bp.blogspot.com/-shPKylVlFdo/VXyobB1FyhI/AAAAAAAAAF0/alWEiPnEnis/s1600/Robot.jpg">
+    <p> Haga click en el cuadrado.</p>
+  </div>
+  <div id="box2">
+    <img class="img2" src="http://cholakovit.com/wp-content/uploads/2012/02/cholakovit-robot.png">
+  </div>
+    <button id="im"> aparecer </button>
+  <div id="box3">
+    <img src="https://pbs.twimg.com/profile_images/1730147280/robot_efectos-transparente.png">
+  </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+	font-family: arial;
+	color: rgb(72,83,83);
+	text-align : justify;
+	font-size: 13pt;
+	background-image: url('http://1.bp.blogspot.com/-kjh6bxfAaqU/T7Pjw5hs9lI/AAAAAAAAN14/7x932jj3HU0/s1600/Fondos+de+pantalla+con+bellos+rincones+de+la+naturaleza+(72).jpg');
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+	}
+h1{
+	text-align: center;
+	font-weight: 800;
+	color: rgb(70,75,75);
+	}
+p{
+	font-family: "Times New Roman";
+	}
+b{
+	font-size: 130%;
+	}
+ol{
+	list-style-type:upper-roman;
+	}
+.pcl{
+	background-color: yellow;
+	border: red 3px ridge;
+}	
+.p2{
+	background-color:violet;
+	margin-top: 1cm;
+	margin-right: 3cm;
+	margin-bottom: 4cm;
+	margin-left: 5cm;
+	}
+#lm{
+	font-weight: bold;
+	font-size: large;
+	}
+img{
+	left: 25%;
+	top: 30%;
+	width: 500px;
+	left: 500px;
+}

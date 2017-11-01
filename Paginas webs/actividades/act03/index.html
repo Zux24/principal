@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="uft-8">
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		
+		<script type="text/javascript">
+			function Over(obj){
+				obj.style.width = "600px";
+				obj.style.height = "250px";
+			}
+			function Out(obj){
+				obj.style.width = "500px";
+				obj.style.height = "200px";
+			}
+			function Verimagen(id,i){
+				document.getElementById("li1").style.color="black";
+				document.getElementById("li2").style.color="black";
+				document.getElementById("li3").style.color="black";
+				i.style.color="red";
+				if (id=='li1') {document.getElementById("im").innerHTML = "<img src='http://www.iihs.org/frontend/iihs/ratings/images/api-model-year-image.ashx?id=2190&width=730'/>"};
+				if (id=='li2') {document.getElementById("im").innerHTML = "<img src='https://upload.wikimedia.org/wikipedia/commons/5/5b/Jeep_Wrangler_Sport_(JK)_%E2%80%93_Frontansicht,_16._April_2011,_D%C3%BCsseldorf.jpg'/>"};
+				if (id=='li3') {document.getElementById("im").innerHTML = "<img src='http://www.carrosblindados.com.mx/wp-content/uploads/2013/01/2011-jeep-grand-cherokee-overland-summit-and-liberty-jet-previewed-26531_1.jpg'/>"};
+			}
+			function Zoom(){
+
+
+			}
+			function Fechamashora(){
+
+			}
+		</script>
+
+		<title>autos</title>
+	</head>
+	<body>
+		<h1> Modelos de autos</h1>
+		<div>
+			<p>
+				<a href="http://www.jeep.cl/">Pagina Web</a>
+			</p>
+			<img id="logo" src="http://atodoterreno.com/news/media/k2/items/cache/5ab529a5ebdeee2caf2312423d91adb3_XL.jpg" onmouseover="Over(this);" onmouseout="Out(this);">
+		</div>
+		<div></div>
+		<ol>
+			<li id="li1" onclick="Verimagen('li1',this)"> Patriot</li>
+			<li id="li2" onclick="Verimagen('li2',this)"> 
+				<span> Wrangler Sport</span>
+			</li>
+			<li id="li3" onclick="Verimagen('li3',this)"> Grand Cherokee</li>
+		</ol>
+		<div id="im"></div>
+		<input type="button" value="Zoom" onclick="Zoom()"/>
+		<input type="button" value="Ver hora y fecha" onclick="Fechamashora()"/>
+		<p> </p>
+	</body>
+</html>

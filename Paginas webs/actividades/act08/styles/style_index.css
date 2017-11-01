@@ -1,0 +1,30 @@
+body{
+	background-image: "http://3.bp.blogspot.com/-Rnu-vLpd450/VHejWUmmoTI/AAAAAAAAAhQ/h1XSc8CZ6uc/s1600/apple_desktop-wallpaper-1920x1080.jpg";
+}
+#comprar{
+	margin: 10px;
+	left: 400px;
+}
+img{
+	width: 300px;
+	height: 200px;
+}
+.productos{
+	position: relative;
+	left: 100px;
+	width: 600px;
+	margin: 100px;
+}
+#Contenido{
+	width: 600px;
+	height: 200px;
+	position: relative;
+	top: 10px;
+	left: 200px;
+	border: solid 1px rgb(200,230,255);
+}
+.box,.box2,.box3{
+	width: 300px;
+	position:relative;
+
+}

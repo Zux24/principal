@@ -1,0 +1,158 @@
+body{
+	/*Color de fondo de la pagina*/
+	
+	background-image: url("img/mascotas/rascadores/2.jpg") left top;
+}
+#encabezado{
+	background-image: url("../img/we.jpg");
+	background-size: 900px 200px;
+	position: relative;
+	width: 900px;
+	height: 200px;
+	background-color: rgb(200,200,230);
+	border-radius-top: 15px;
+	left: 270px;
+	border: solid 1px rgb(200,230,255);
+	margin: 5px;
+	padding-bottom: 0px; 
+	border-bottom: 0px;
+}
+.logo{
+	background: rgb(250,200,200);
+	left: 30px;
+	width: 230px;
+	padding: 5px ;
+	position: relative;
+	border-radius: 30px;
+	color: rgb(200,255,255);
+}
+/*Div de inicio de sesion: */
+#logear{
+	background-color: rgb(200,200,255);
+	background: rgb(237, 237, 255);
+	left: 680px;
+	width: 200px;
+	height: 100px;
+	bottom: 60px;
+	border-radius: 10px;
+	position: relative;
+	font-size: 13px;
+	font-family: 'Merienda One', cursive;
+}
+#logeo{
+	margin: 10px;
+	left: 6px;
+	margin-top: 5px;
+	position: relative;
+}
+/*Menu o navegador de la pagina*/
+#menu{
+	position: relative;
+	width: 900px;
+	background-color: rgb(200,200,230);
+	left: 270px;
+	border: solid 1px rgb(200,230,255);
+	margin: 5px;
+	padding: 0px;
+	height: 70px;
+}
+nav{
+	text-transform: uppercase;
+	font-size: 18.5px;
+	position: relative;
+	width: 900px;
+	height: 70px; 
+	margin-top: 10px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+/*Marca en el menu la pagina en donde esta el usuario*/
+.marcador{
+	background-color: rgb(255,255,255);
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-bottom: 9px;
+	padding-top: 10px;
+	position: relative; 
+}
+.link{
+	background-color: rgb(200,245,249);
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 10px;
+	padding-bottom: 9px;
+	position: relative;
+}
+/*Link de compras*/
+#carro{
+	width: 60px;
+	height: 37px;
+}
+.carro{
+	margin-left: 20px;
+	position: relative;
+	padding: 10px;
+	padding-top: 10px;
+}
+/*Contenido de la pagina*/
+#contenido{
+	border-top: 0px;
+	padding-top: 0px;
+	position: relative;
+	width: 900px;
+	background-color: rgb(200,200,230);
+	left: 270px;
+	border: solid 1px rgb(200,230,255);
+	margin: 5px;
+	padding-bottom: 300px; 
+}
+#icono{
+	width: 20px;
+	height: 20px;
+}
+/*Fotos inicio: */
+#in{
+	width: 200px;
+	height: 150px;
+	position: relative;
+	margin-right: 60px;
+	margin: 10px;
+}
+
+/*Crear cuenta:*/
+.formulario{
+	width: 500px;
+	height: 400px;
+	margin: 30px;
+	background-color: rgb(200,230,255);
+	position: relative;
+	left: 160px;
+	border-radius: 200px;
+}
+#fc{
+	position: relative;
+	left: 160px;
+	top: 50px;
+}
+.datos{
+	border: solid 1px rgb(200,230,255);
+	padding-left: 30px;
+	padding-top: 20px;
+	margin: 30px;
+}
+legend{
+	position: center;
+}
+/*Pie de la pagina*/
+#footer{
+	position: relative;
+	width: 900px;
+	height: 200px;
+	background-color: rgb(200,200,230);
+	left: 270px;
+	border: solid 1px rgb(200,230,255);
+	border-top: 0px;
+	margin: 5px;
+}

@@ -1,0 +1,35 @@
+body{
+	background: rgb(200,230,230);
+}
+
+#box{
+	width: 200px;
+	height: 150px;
+	background-color: red;
+	position: relative;
+	left: 500px;
+	top: 150px;
+	border-radius: 20px;
+}
+#box2{
+	width: 200px;
+	height: 150px;
+	background-color: red;
+	position: relative;
+	left: 800px;
+	top: 10px;
+	border-radius: 20px;
+}
+#box3{
+	width: 200px;
+	height: 150px;
+	background-color: red;
+	position: relative;
+	left: 200px;
+	bottom: 200px;
+	border-radius: 20px;
+}
+img{
+	width: 100px;
+	height: 100px;
+}

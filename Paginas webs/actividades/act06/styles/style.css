@@ -1,0 +1,82 @@
+body{
+	background-color: rgb(200,200,255);
+}
+#box{
+	background-color: rgb(205,225,230);
+	border: solid 1px rgb(200,230,255);
+	width: 500px;
+	height: 300px;
+	position: relative;
+	left: 420px;
+	top: 140px;
+	border-radius: 30px;
+}
+h1{
+	left: 210px;
+	position: relative;
+	top: 5px;
+	color: rgb(200,255,255);
+}
+#logear{
+	left: 170px;
+	position: relative;	
+	color: rgb(200,150,200);
+}
+input{
+	border-radius: 5px;
+}
+#boton{
+	background-color: rgb(200,200,255);
+	border-radius: 15px;
+	top: 20px;
+	position: relative;
+	left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: rgb(200,150,200);
+}
+#boton2{
+	background-color: rgb(200,200,255);
+	border-radius: 15px;
+	top: 90px;
+	position: relative;
+	left: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: rgb(60,190,200);
+}
+#boton3{
+	background-color: rgb(200,200,255);
+	border-radius: 15px;
+	top: 15px;
+	position: relative;
+	left: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: rgb(60,190,200);
+}
+#l{
+	position: relative;
+	left: 20px;
+	margin: 5px;
+}
+#box_subir{
+	background-color: rgb(205,225,230);
+	border: solid 1px rgb(200,230,255);
+	width: 500px;
+	height: 100px;
+	position: relative;
+	top: 160px;
+	border-radius: 30px;
+}
+#fupload{
+	top: 15px;
+	left: 50px;
+	position: relative;
+}

@@ -1,0 +1,30 @@
+body {background-color: rgb(192, 242, 255);}
+h1{
+	text-align: center;
+	background-color: rgb(95, 95, 255);
+	border-radius:10px; 
+	width: 900px;
+	height: 60px;
+	}
+table {background-color: rgb(255, 255, 255);
+	   border: 1px;}
+.p1 { 
+	width: 800px;
+	height: 60px;
+	}
+img{
+	width:300px;
+	height:200px;
+}
+#d{
+	position: center;
+	width: 800px;
+	margin: 0 auto;
+}
+#cp{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
