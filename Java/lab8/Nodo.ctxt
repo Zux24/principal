@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Nodo
+comment1.params=
+comment1.target=Nodo()
+comment2.params=dato
+comment2.target=Nodo(int)
+comment3.params=nexo
+comment3.target=void\ setSiguiente(Nodo)
+numComments=4

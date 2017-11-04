@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=M\ N
+comment0.target=int\ mayor(int[],\ int)
+comment1.params=M\ N
+comment1.target=int\ menor(int[],\ int)
+comment2.params=M\ N
+comment2.target=int\ pares(int[],\ int)
+comment3.params=M\ N
+comment3.target=int\ suman(int[],\ int)
+comment4.params=M\ N
+comment4.target=void\ alveres(int[],\ int)
+comment5.params=A\ B
+comment5.target=int\ por(int,\ int)
+comment6.params=A
+comment6.target=boolean\ esPar(int)
+numComments=7

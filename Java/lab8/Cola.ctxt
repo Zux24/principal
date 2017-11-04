@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Cola
+comment1.params=
+comment1.target=Cola()
+comment2.params=
+comment2.target=void\ mostrar()
+comment3.params=nuevo
+comment3.target=void\ agregar(Nodo)
+comment4.params=
+comment4.target=Nodo\ extraer()
+comment5.params=
+comment5.target=boolean\ vacia()
+numComments=6
