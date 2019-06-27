@@ -1,2 +1,2 @@
-Repositorio de codigos de aprendizaje.
-Portafolio - Referencia a los conocimientos aprendidos
+Portafolio de codigos de programacion.
+Codigos de aprendizaje.
