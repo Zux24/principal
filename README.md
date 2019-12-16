@@ -1,2 +1,1 @@
-Portafolio de codigos de programacion.
-Codigos de aprendizaje.
+Ejercicios de programacion
