@@ -1,0 +1,44 @@
+.nav {
+    background-color: grey;
+    margin: 1%;
+    padding: 2%;
+}
+
+h2 {}
+
+.menu {
+    position: relative;
+    margin-left: 65%;
+    margin-top: 3%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenido {
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.registrar {
+    background-color: rgb(181, 181, 181);
+    margin-left: 20%;
+    margin-top: 3%;
+    width: 50%;
+    padding: 5%;
+}
+
+.login {
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+.mn {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.celda {
+    width: 80%;
+}
